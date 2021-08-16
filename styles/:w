@@ -1,0 +1,47 @@
+@import url('fonts.css');
+@import url('reset.css');
+@import url('images.css');
+@import url('home.css');
+@import url('steps.css');
+
+html {
+    font-family: var(--header-font);
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.button {
+    border-radius: 40px;
+}
+
+.container {
+    width: 940px;
+    border: 2px dashed red;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+    text-align: center;
+    margin: 0 auto 35px;
+}
+
+.avatar {
+    width: 221px;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatar img {
+    width: 120px;
+    height: 120px;
+}
+
