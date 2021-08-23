@@ -1,0 +1,61 @@
+@import './base/base';
+@import './base/fonts';
+@import './base/mixin';
+@import './base/variables';
+@import './pages/images';
+@import './pages/home';
+@import './pages/steps';
+@import './pages/avatar';
+@import './pages/activities';
+@import './pages/search-form';
+@import './components/footer';
+
+html {
+    font-family: $header-font;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.button {
+    border-radius: 40px;
+}
+
+.container {
+    width: 940px;
+    height: 100%;
+    /* border: 2px dashed red; */
+    margin: 0 auto;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+    text-align: center;
+    margin: 0 auto 35px;
+}
+hr {
+    color: #FF4E50;
+}
+
+@media screen and (max-width: 960px) {
+    @import './media/media-max-width-960px.scss';
+}
+@media screen and (max-width: 768px) {
+    @import './media/media-max-width-768px.scss';
+}
+@media screen and (max-width: 596px) {
+    @import './media/media-max-width-596px.scss';
+}
+@media screen and (max-width: 576px) {
+    @import './media/media-max-width-576px.scss';
+}

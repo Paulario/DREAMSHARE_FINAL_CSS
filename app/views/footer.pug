@@ -1,0 +1,16 @@
+footer.footer
+    div.container
+        div.footer-wrap
+            div.dreamshare DREAMSHARE
+            div.footer-company
+                span Company
+                - var liItems = ['About','Contacts','Press','Blog','Terms and Privacy','Help']
+                ul
+                    each val, index in liItems
+                        li= val
+            div.footer-partners
+                span Partners
+            div.designed-by
+                span Designed By
+                img(src="./images/footer.png" alt="")
+
