@@ -1,0 +1,29 @@
+.container {
+    width: 576px;     
+}
+
+.card {
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.card-wrapper {
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.section-activities .card-wrapper {
+    flex-wrap: nowrap;
+}
+.poster:first-child, .poster:nth-child(2) {
+    margin: 0 10px 10px 0;
+}
+.poster:first-child, .poster:nth-child(2) {
+    margin: 0 10px 10px 0;
+}
+#culture {
+    margin-right: 0;
+}
+#travel {
+    margin-right: 0;
+}
